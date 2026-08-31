@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MAIN APP CONTAINER: Splits the screen into Sidebar and Content Area -->
+    <div class="app-container">
+
+        <!-- SIDEBAR NAVIGATION (Sticky/Fixed on desktop) -->
+        <aside class="sidebar">
+            <!-- Profile / Identity Block -->
+            <div class="profile-section">
+                <div class="avatar-placeholder"></div>
+                <h2>Your Name ;3 </h2>
+                <p class="role">Junior UI/UX Designer</p>
+                <span class="status-badge">Available for work</span>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+                <a href="#about" class="nav-item active">About</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#playground" class="nav-item">Playground</a>
+                <a href="#cv" class="nav-item">Curriculum Vitae</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+
+            <!-- Sidebar Footer / Socials -->
+            <div class="sidebar-footer">
+                <div class="social-icons">
+                    <a href="#" target="_blank">GH</a>
+                    <a href="#" target="_blank">LI</a>
+                    <a href="#" target="_blank">FG</a>
+                </div>
+                <small>© 2026 Your Name ;3 </small>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT SCROLLABLE AREA -->
+        <main class="main-content">
+            
+            <!-- Hero / About Section -->
+            <section id="about" class="content-section">
+                <h1>Building thoughtful interfaces with Python precision</h1>
+                <p class="hero-desc">I anchor high-end UI/UX designs into bulletproof technical execution. By pairing clean visual patterns with modular backend code, I bridge the gap between design vision and terminal reality.</p>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="content-section">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="card">Project 1</div>
+                    <div class="card">Project 2</div>
+                </div>
+            </section>
+
+            <!-- Live Playground Section -->
+            <section id="playground" class="content-section">
+                <h2>Live Playground</h2>
+                <div class="playground-box">Interactive Python/UI Widget goes here</div>
+            </section>
+
+            <!-- CV Section -->
+            <section id="cv" class="content-section">
+                <h2>Curriculum Vitae</h2>
+                <div class="cv-card">Experience timeline and PDF download</div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="content-section">
+                <h2>Start a Project</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name">
+                    <textarea placeholder="Your Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
